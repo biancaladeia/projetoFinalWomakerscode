@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+        <meta name="author" content="Bianca Ladeia">
+        <meta name="description" content="Site desenvolvido para conclusão do curso de programação web - WoMakersCode">
+        <link rel="stylesheet" href="CSS/estilo.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <title>Ada Lovelace</title>
+    </head>
+    <body>
+        <header id="home">
+            <nav class="navigation">
+                <a href="#home" class="title" title="Ada Lovelace">
+                    <img class="title-logo" alt="Logo" src="Logo/logo.svg">
+                </a>
+                <div class="menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#about" onclick="toggleMenu()">SOBRE</a></li>
+                    <li class="nav-item"><a href="#regressiva" onclick="toggleMenu()">ADA DAY</a></li>
+                    <li class="nav-item"><a href="#gallery" onclick="toggleMenu()">GALERIA</a></li>
+                    <li class="nav-item"><a href="#footer" onclick="toggleMenu()">CONTATO</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="home" id="home-main">
+                <div class="home-text">
+                    <p class="paragraph">As notas de Ada Lovelace só foram republicadas mais de cem anos após sua morte. Apesar de tardio, o reconhecimento por seu trabalho fizeram-na ser referenciada como a primeira programadora da história, uma vez que suas anotações foram observadas como sendo a primeira descrição de um software. </p>
+                    <p class="paragraph">O pioneirismo foi sublinhado por Alan Turing, conhecido como o “pai da computação moderna”, que fez referência ao trabalho de Lovelace em suas pesquisas.</p>
+                    <p class="paragraph">Entender a história por trás das tecnologias que usamos hoje é muito valioso para a construção do imaginário e dos raciocínios por trás dos códigos.</p>
+                </div>
+                <div class="home-img">
+                    <img src="Imagens/ada.jpeg" alt="Ada Lovelace">
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <article class="article">
+                    <h3 class="article-title">Uma breve história...</h3>
+                    <p class="article-text">Ada Lovelace foi uma figura histórica pioneira no campo da computação. Nascida em 1815, na Inglaterra, ela teve acesso a uma educação privilegiada e mostrou aptidão para a matemática desde cedo. Lovelace ficou conhecida por sua colaboração com Charles Babbage, um inventor e matemático, no século XIX.</p>
+                </article>
+                <article class="article">
+                    <h3 class="article-title">Colaboração com Charles Babbage</h3>
+                    <p class="article-text">Sua colaboração mais notável foi com o projeto do Mecanismo Analítico de Babbage, um dos primeiros dispositivos mecânicos programáveis. Ada Lovelace compreendeu a visão revolucionária de Babbage e contribuiu significativamente para o desenvolvimento do projeto. Ela teve a compreensão de que a máquina poderia realizar mais do que simples cálculos numéricos, imaginando seu potencial como uma ferramenta versátil e programável.</p>
+                </article>
+                <article class="article">
+                    <h3 class="article-title">O legado de Ada</h3>
+                    <p class="article-text">Um aspecto particularmente notável das contribuições de Ada Lovelace foi a criação do primeiro algoritmo. Ela escreveu uma série de notas detalhadas sobre o Mecanismo Analítico, onde incluiu um algoritmo para calcular os números de Bernoulli. Essas notas, publicadas em 1843, tornaram-se o primeiro programa de computador registrado na história.</p>
+                </article>          
+            </section>
+
+            <section class="countdown" id="regressiva">
+                <div class="container">
+                    <h1 id="headline">Quantos dias faltam para o Ada Day?</h1>
+                    <div class="countdown-item" id="countdown"></div>
+                  </div>            
+                </div>
+                <div class="countdown-last-item">
+                    <p class="paragraph">O Dia da Ada Lovelace é celebrado anualmente na segunda terça-feira de outubro desde 2009. Essa ocasião tem como propósito enaltecer suas notáveis contribuições para a ciência da computação, além de ressaltar a importância das mulheres em campos STEM. O evento busca inspirar e encorajar meninas e mulheres a seguirem carreiras nessas áreas, promovendo a igualdade de gênero no campo tecnológico.</p>
+                </div> 
+            </section>
+
+            <section class="photos" id="gallery">
+                <div class="gallery">
+                    <div class="swiper mySwiper container">
+                        <div class="swiper-wrapper content">
+                            <div class="swiper-slide card">
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="Imagens/ada1.jpeg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide card">
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="Imagens/ada2.jpeg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide card">
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="Imagens/ada3.jpeg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide card">
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="Imagens/ada4.jpeg" alt="">
+                                    </div>  
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide card">
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="Imagens/ada11.jpeg" alt="">
+                                    </div>      
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide card">
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="Imagens/ada6.jpeg" alt="">
+                                    </div>               
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide card">
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="Imagens/ada7.jpeg" alt="">
+                                    </div>               
+                                </div>
+                            </div> 
+
+                            <div class="swiper-slide card">
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="Imagens/ada8.jpeg" alt="">
+                                    </div>               
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide card">
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="Imagens/ada10.jpeg" alt="">
+                                    </div>               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer" id="footer">
+            Desenvolvido por Bianca Ladeia
+            <div class="contact">
+                <a href="https://www.instagram.com/biancaladeiag/" class="instagram" title="Instagram">
+                    <img class="instagram-logo" alt="Instagram" src="icones/instagram.svg"> 
+                </a>
+
+                <a href="https://br.linkedin.com/in/bianca-ladeia-2a69bb1a0" class="linkedin" title="Linkedin">
+                    <img class="linkedin-logo" alt="Linkedin" src="icones/linkedin.svg"> 
+                </a>
+
+                <a href="https://github.com/biancaladeia" class="github" title="GitHub">
+                    <img class="github-logo" alt="GitHub" src="icones/github.svg"> 
+                </a>
+            </div>
+        </footer>
+        
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="script.js"></script> 
+        
+    </body>
+</html>
