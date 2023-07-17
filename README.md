@@ -6,7 +6,7 @@ O meu objetivo com este projeto é criar um site interativo usando HTML, CSS e J
 
 ### Sobre o Projeto
 
-O site tem como propósito proporcionar uma experiência informativa e envolvente aos visitantes. Utilizamos recursos como:
+O site tem como propósito proporcionar uma experiência informativa e envolvente aos visitantes. Utilizei recursos como:
 
 - Página HTML: Estrutura bem organizada e semântica para exibir o conteúdo do site.
 - Arquivos CSS: Estilizei o site com CSS para torná-lo visualmente atraente e responsivo em diferentes dispositivos.
