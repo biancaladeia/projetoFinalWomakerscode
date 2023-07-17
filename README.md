@@ -27,7 +27,7 @@ Se você deseja contribuir para este projeto, sinta-se à vontade para fazer um 
 Você pode entrar em contato comigo por meio das seguintes redes sociais:
 
 - Instagram: [biancaladeiag](https://www.instagram.com/biancaladeiag/)
-- LinkedIn: [bianca-ladeia-2a69bb1a0](https://br.linkedin.com/in/bianca-ladeia-2a69bb1a0)
+- LinkedIn: [bianca-ladeia](https://br.linkedin.com/in/bianca-ladeia-2a69bb1a0)
 - GitHub: [biancaladeia](https://github.com/biancaladeia)
 
 Agradeço a todos os envolvidos no desenvolvimento deste projeto e espero que ele seja útil e inspirador para outros estudantes de programação web.
